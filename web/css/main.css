@@ -1,0 +1,187 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+/* Base Styles */
+#cssmenu ul,
+#cssmenu li,
+#cssmenu a {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  line-height: 1;
+  font-family: 'Lato', sans-serif;
+}
+#cssmenu {
+  border: 1px solid #050808;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  width: auto;
+}
+#cssmenu ul {
+  zoom: 1;
+  background: #406566;
+  background: -moz-linear-gradient(top, #406566 0%, #2c4647 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #406566), color-stop(100%, #2c4647));
+  background: -webkit-linear-gradient(top, #406566 0%, #2c4647 100%);
+  background: -o-linear-gradient(top, #406566 0%, #2c4647 100%);
+  background: -ms-linear-gradient(top, #406566 0%, #2c4647 100%);
+  background: linear-gradient(top, #406566 0%, #2c4647 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='@top-color', endColorstr='@bottom-color', GradientType=0);
+  padding: 5px 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+#cssmenu ul:before {
+  content: '';
+  display: block;
+}
+#cssmenu ul:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+#cssmenu li {
+  float: left;
+  margin: 0 5px 0 0;
+  border: 1px solid transparent;
+}
+#cssmenu li a {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 8px 15px 9px 15px;
+  display: block;
+  text-decoration: none;
+  color: #ffffff;
+  border: 1px solid transparent;
+  font-size: 16px;
+}
+#cssmenu li.active {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #406566;
+}
+#cssmenu li.active a {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  display: block;
+  background: #182728;
+  border: 1px solid #050808;
+  -moz-box-shadow: inset 0 5px 10px #050808;
+  -webkit-box-shadow: inset 0 5px 10px #050808;
+  box-shadow: inset 0 5px 10px #050808;
+}
+#cssmenu li:hover {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #406566;
+}
+#cssmenu li:hover a {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  display: block;
+  background: #182728;
+  border: 1px solid #050808;
+  -moz-box-shadow: inset 0 5px 10px #050808;
+  -webkit-box-shadow: inset 0 5px 10px #050808;
+  box-shadow: inset 0 5px 10px #050808;
+}
+
+body{
+background: #b7deed; /* Old browsers */
+background: -moz-linear-gradient(top,  #b7deed 0%, #71ceef 30%, #21b4e2 64%, #b7deed 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b7deed), color-stop(30%,#71ceef), color-stop(64%,#21b4e2), color-stop(100%,#b7deed)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #b7deed 0%,#71ceef 30%,#21b4e2 64%,#b7deed 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #b7deed 0%,#71ceef 30%,#21b4e2 64%,#b7deed 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #b7deed 0%,#71ceef 30%,#21b4e2 64%,#b7deed 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #b7deed 0%,#71ceef 30%,#21b4e2 64%,#b7deed 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed',GradientType=0 ); /* IE6-9 */
+
+
+}
+#content{
+width:1000px;
+height:auto;
+margin:0px auto;
+}
+.blok{
+height:auto;
+float:left;
+border:1px solid red;
+}
+#leftblok{
+width:248px;
+}
+#rightblok{
+width:748px;
+}
+#usercontent{
+border:1px solid blue;
+margin:0 auto;
+width:424px;
+height:auto;
+text-align:center;
+padding-bottom:10px;
+}
+#picture{
+width:73px;
+height:73px;
+background-image: url(/home/furkan/Downloads/download.jpg);
+margin:0 auto;
+margin-top:10px;
+margin-bottom:10px;
+}
+#smallpicture{
+width:48px;
+height:48px;
+background-image: url(/home/furkan/Downloads/download.jpg);
+margin:0 auto;
+margin-top:10px;
+margin-bottom:10px;
+border:1px solid red;
+}
+#usertweet{
+border:1px solid blue;
+margin:0 auto;
+padding-top:10px;
+width:700px;
+height:auto;
+text-align:center;
+}
+#tweets{
+width:700px;
+height:400px;
+}
+#tweets ul{
+width:424px;
+}
+#tweets ul li{
+list-style:none;
+float:left;
+}
+.tweetsli{
+width: 100px;
+}
+
+
+
